@@ -1,0 +1,99 @@
+ body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+           
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('sobre.jpg') center/cover no-repeat fixed;
+        }
+
+        .btn-brown {
+        background-color: #b64706; 
+        border-color: #b64706;  
+        color: white;
+      }
+      .btn-brown:hover {
+        background-color: #b64706;
+        border-color: #b64706;
+        color: white;
+      }
+
+        h2, h5 {
+            text-align: center;
+            color: #ede6e6;
+        }
+
+        .menu-inner-image {
+             display: flex;
+        justify-content: center;
+        margin-top: -90px; 
+        margin-bottom: 20px;
+        position: relative;
+        }
+        .menu-inner-image img {
+            max-width: 30%; 
+            height: auto;
+        }
+
+        .blog-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 40px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .post-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 250px;
+            padding: 20px;
+            transition: transform 0.2s ease;
+            color: #333;
+        }
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+        .post-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        .post-title {
+            font-weight: bold;
+            margin: 15px 0 10px;
+        }
+        .post-text {
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            padding: 10px 0;
+        }
+
+        .dropdown-menu a.dropdown-item {
+            color: #6f4f28;
+        }
+        .dropdown-menu a.dropdown-item:hover,
+        .dropdown-menu a.dropdown-item:focus {
+            background-color: #6f4f28;
+            color: white;
+        }
+         .dropdown-menu a.dropdown-item {
+    color: #b64706;
+}
+
+.dropdown-menu a.dropdown-item:hover,
+    .dropdown-menu a.dropdown-item:focus {
+    background-color: #b64706; 
+    color: white;
+   }

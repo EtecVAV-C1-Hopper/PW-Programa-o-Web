@@ -1,0 +1,47 @@
+.btn-brown {
+        background-color: #6f4f28; 
+        border-color: #6f4f28;  
+        color: white;
+      }
+      .btn-brown:hover {
+        background-color: #5e4222;
+        border-color: #5e4222;
+        color: white;
+      }
+
+      body {
+        background-image: url('inicial3.jpg'); 
+        background-size: cover;  
+        background-position: center;  
+        background-attachment: fixed; 
+        color: white;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 5; 
+      }
+
+      footer {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px 0;
+        
+      }
+      .dropdown-menu a.dropdown-item {
+    color: #6f4f28;
+  }
+
+.dropdown-menu a.dropdown-item:hover,
+    .dropdown-menu a.dropdown-item:focus {
+    background-color: #6f4f28; 
+    color: white;
+   }
