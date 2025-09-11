@@ -1,0 +1,48 @@
+body{
+       
+  color: rgb(255, 255, 255);
+}
+    
+    table.first{
+        font-family: Arial, Helvetica, sans-serif;
+         color: rgb(10, 10, 10);
+    }
+    Table {
+  
+  font-family: 	Courier, 'Courier New', Courier, monospace;
+}
+
+
+#example1 {
+    font-size: 30px;
+  background: url(g.jpg) ;
+  padding: 50px;
+}
+#example3 {
+  font-size: 30px;
+  background: url(r.png);
+  padding: 50px;
+}
+#grad1 {
+  height: 10px;
+  background-image: linear-gradient(to right, #4e2a1b,#cfaa98);
+
+}
+#grad2 {
+  height: 10px;
+  background-image: linear-gradient(to right, #322320,#dfc7b1);
+
+}
+#example2 {
+  width: 70%;
+  height: 350px;
+  padding: 25px;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  color: rgb(10, 10, 10);
+}

@@ -1,0 +1,54 @@
+body{
+       
+    color: rgb(255, 255, 255);
+  }
+      
+ Table {
+    font-family: 	Courier, 'Courier New', Courier, monospace;
+    }      
+    
+    table.first{
+          font-family: Arial, Helvetica, sans-serif;
+           color: rgb(10, 10, 10);
+      }
+
+    table.second{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #e0d6ca;
+        background-color: #594920;
+    }
+
+    table.third{
+        font-family: Arial, Helvetica, sans-serif;
+           color: #160e0a;
+    }
+
+a {
+        color:white;
+}
+
+
+  #example1 {
+      font-size: 30px;
+    background: url(geral.png) ;
+    padding: 50px;
+  }
+  #example3 {
+    font-size: 30px;
+    background: url(r.png);
+    padding: 50px;
+  }
+  #grad1 {
+    height: 10px;
+    background-image: linear-gradient(to right, #594920,#b6a47a);
+  }
+  
+  #example2 {
+    width: 70%;
+    height: 350px;
+    padding: 25px;
+  }
+  
+  footer {
+    color: rgb(10, 10, 10);
+  }
