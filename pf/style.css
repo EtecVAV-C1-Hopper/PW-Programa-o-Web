@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.active {
+    cursor: default;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #b91b1b;
+}
+
+.foot {
+    width: 60%;
+    height: 1px;
+    background: #000000;
+    margin: 0 auto 15px auto;
+    box-shadow: 0 1px 3px rgba(88, 88, 88, 0.3);
+}
+
+.inicial a {
+    color: #b91b1b;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #b91b1b !important;
+}
+
+.podio {
+    width: 80px;
+    background-color: gray;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    height: 0;
+    animation: subir 1.75s forwards ease-out;
+}
+
+.podio .label {
+    position: absolute;
+    bottom: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.c {
+    background: linear-gradient(to top, #401eff, #ff69b4)
+}
+
+.b {
+    background: linear-gradient(to top, #b91b1b, #ffa2a2)
+}
+
+.vs {
+    background: linear-gradient(to top, #0ce0e3, #caf6ff)
+}
+
+.w{
+    background: linear-gradient(to top, #ff5188, #ffd2d2)}
+
+.a {
+    background: linear-gradient(to top, #0bad18, #aaffa2)}
+
+.e {
+    background: linear-gradient(to top, #464646, #e7e7e7)}
+
+.d {
+    background: linear-gradient(to top, #8416b7, #fff94a)}
+
+.z {
+    background: linear-gradient(to top, #ff7b00, #ffd8ac)}
+
+@keyframes subir {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: var(--altura);
+    }
+}
