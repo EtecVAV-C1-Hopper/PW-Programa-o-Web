@@ -1,0 +1,181 @@
+body { 
+  font-family: 'Roboto', sans-serif; 
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ====== CABEÇALHO ====== */
+.top-bar, .hero, footer { 
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.top-bar { 
+  background: #fff;
+  padding: 20px 30px;
+  border-bottom: 2px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ====== MENU ====== */
+.dropdown { position: relative; display: inline-block; }
+.dropbtn {
+  background-color: #b52222;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+.dropbtn:hover { background-color: #9e1d1d; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover { 
+  background-color: #b52222; 
+  color: white;
+}
+.dropdown:hover .dropdown-content { display: block; }
+
+/* ====== HERO ====== */
+.hero {
+  background: linear-gradient(rgba(181,34,34,0.8), rgba(181,34,34,0.8)), url('fundo-hero.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 12px;
+}
+.hero h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+.btn-custom {
+  background-color: #000000;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.btn-custom:hover {
+  background-color: #ffffff;
+  color: #b52222;
+}
+
+/* ====== SEÇÕES ====== */
+.content-block {
+  padding: 80px 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+.content-block:nth-child(even) {
+  background-color: #ffffff;
+}
+.content-block:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+.content-block h2 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  color: #b52222;
+  position: relative;
+  font-weight: 700;
+}
+.content-block h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #b52222;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+.content-block p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* ====== IMAGENS ====== */
+.content-block img {
+  display: block;
+  margin: 40px auto;
+  width: 70%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.content-block img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background-color: #b52222;
+  color: #ffffff;
+  padding: 50px 20px;
+  margin: 0;
+  width: 100%;
+  border-radius: 0;
+}
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+footer p, footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+footer a:hover {
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  border: none;
+  padding-top: 15px;
+}
+
+/* ====== ANIMAÇÃO ====== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.4rem; }
+  .content-block { padding: 50px 20px; }
+  .content-block img { width: 100%; margin: 25px 0; }
+}
